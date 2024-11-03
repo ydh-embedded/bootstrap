@@ -1,5 +1,6 @@
 # bootstrap
 
+```ps
    ~/working-directo/F/s/bootstrap/bstr04    main ?1  tree -h  ✔
 [4.0K] .
 ├── [3.8K] index.html
@@ -8,78 +9,78 @@
 │   │   ├── [4.0K] dist
 │   │   │   ├── [4.0K] css
 │   │   │   │   ├── [274K] bootstrap.css
-│   │   │   │   ├── [664K] bootstrap.css.map
+│   │   │   │   ├── [664K] bootstrap.css.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 51K] bootstrap-grid.min.css
-│   │   │   │   ├── [113K] bootstrap-grid.min.css.map
+│   │   │   │   ├── [113K] bootstrap-grid.min.css.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [227K] bootstrap.min.css
-│   │   │   │   ├── [576K] bootstrap.min.css.map
+│   │   │   │   ├── [576K] bootstrap.min.css.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [9.9K] bootstrap-reboot.min.css
-│   │   │   │   └── [ 50K] bootstrap-reboot.min.css.map
+│   │   │   │   └── [ 50K] bootstrap-reboot.min.css.map          [aus dem Pojekt entfernt]
 │   │   │   └── [4.0K] js
 │   │   │   ├── [203K] bootstrap.bundle.js
-│   │   │   ├── [434K] bootstrap.bundle.js.map
+│   │   │   ├── [434K] bootstrap.bundle.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 79K] bootstrap.bundle.min.js
-│   │   │   ├── [324K] bootstrap.bundle.min.js.map
+│   │   │   ├── [324K] bootstrap.bundle.min.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [142K] bootstrap.js
-│   │   │   ├── [299K] bootstrap.js.map
+│   │   │   ├── [299K] bootstrap.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 59K] bootstrap.min.js
-│   │   │   └── [215K] bootstrap.min.js.map
+│   │   │   └── [215K] bootstrap.min.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [4.0K] js
 │   │   │   ├── [4.0K] dist
 │   │   │   │   ├── [2.8K] alert.js
-│   │   │   │   ├── [4.1K] alert.js.map
+│   │   │   │   ├── [4.1K] alert.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [2.8K] base-component.js
-│   │   │   │   ├── [4.5K] base-component.js.map
+│   │   │   │   ├── [4.5K] base-component.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [2.4K] button.js
-│   │   │   │   ├── [3.4K] button.js.map
+│   │   │   │   ├── [3.4K] button.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 13K] carousel.js
-│   │   │   │   ├── [ 27K] carousel.js.map
+│   │   │   │   ├── [ 27K] carousel.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [8.6K] collapse.js
-│   │   │   │   ├── [ 17K] collapse.js.map
+│   │   │   │   ├── [ 17K] collapse.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [4.0K] dom
 │   │   │   │   │   ├── [2.1K] data.js
-│   │   │   │   │   ├── [2.9K] data.js.map
+│   │   │   │   │   ├── [2.9K] data.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   │   ├── [9.2K] event-handler.js
-│   │   │   │   │   ├── [ 19K] event-handler.js.map
+│   │   │   │   │   ├── [ 19K] event-handler.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   │   ├── [2.4K] manipulator.js
-│   │   │   │   │   ├── [4.2K] manipulator.js.map
+│   │   │   │   │   ├── [4.2K] manipulator.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   │   ├── [4.1K] selector-engine.js
-│   │   │   │   │   └── [7.5K] selector-engine.js.map
+│   │   │   │   │   └── [7.5K] selector-engine.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 15K] dropdown.js
-│   │   │   │   ├── [ 28K] dropdown.js.map
+│   │   │   │   ├── [ 28K] dropdown.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 11K] modal.js
-│   │   │   │   ├── [ 22K] modal.js.map
+│   │   │   │   ├── [ 22K] modal.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [8.1K] offcanvas.js
-│   │   │   │   ├── [ 16K] offcanvas.js.map
+│   │   │   │   ├── [ 16K] offcanvas.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [2.6K] popover.js
-│   │   │   │   ├── [4.0K] popover.js.map
+│   │   │   │   ├── [4.0K] popover.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [9.6K] scrollspy.js
-│   │   │   │   ├── [ 18K] scrollspy.js.map
+│   │   │   │   ├── [ 18K] scrollspy.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 10K] tab.js
-│   │   │   │   ├── [ 20K] tab.js.map
+│   │   │   │   ├── [ 20K] tab.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [6.1K] toast.js
-│   │   │   │   ├── [ 12K] toast.js.map
+│   │   │   │   ├── [ 12K] toast.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [ 18K] tooltip.js
-│   │   │   │   ├── [ 36K] tooltip.js.map
+│   │   │   │   ├── [ 36K] tooltip.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   └── [4.0K] util
 │   │   │   │   ├── [4.0K] backdrop.js
-│   │   │   │   ├── [6.9K] backdrop.js.map
+│   │   │   │   ├── [6.9K] backdrop.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [2.0K] component-functions.js
-│   │   │   │   ├── [2.3K] component-functions.js.map
+│   │   │   │   ├── [2.3K] component-functions.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [2.5K] config.js
-│   │   │   │   ├── [3.8K] config.js.map
+│   │   │   │   ├── [3.8K] config.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [3.4K] focustrap.js
-│   │   │   │   ├── [5.7K] focustrap.js.map
+│   │   │   │   ├── [5.7K] focustrap.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [9.1K] index.js
-│   │   │   │   ├── [ 17K] index.js.map
+│   │   │   │   ├── [ 17K] index.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [3.8K] sanitizer.js
-│   │   │   │   ├── [6.9K] sanitizer.js.map
+│   │   │   │   ├── [6.9K] sanitizer.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [4.6K] scrollbar.js
-│   │   │   │   ├── [7.8K] scrollbar.js.map
+│   │   │   │   ├── [7.8K] scrollbar.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [4.3K] swipe.js
-│   │   │   │   ├── [8.0K] swipe.js.map
+│   │   │   │   ├── [8.0K] swipe.js.map          [aus dem Pojekt entfernt]
 │   │   │   │   ├── [4.6K] template-factory.js
-│   │   │   │   └── [8.3K] template-factory.js.map
+│   │   │   │   └── [8.3K] template-factory.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 907] index.esm.js
 │   │   │   ├── [ 874] index.umd.js
 │   │   │   └── [4.0K] src
@@ -218,16 +219,16 @@
 │   │   ├── [4.0K] cjs
 │   │   │   ├── [2.0K] enums.js
 │   │   │   ├── [ 45] enums.js.flow
-│   │   │   ├── [4.1K] enums.js.map
+│   │   │   ├── [4.1K] enums.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 30K] popper-base.js
 │   │   │   ├── [ 51] popper-base.js.flow
-│   │   │   ├── [ 73K] popper-base.js.map
+│   │   │   ├── [ 73K] popper-base.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 58K] popper.js
 │   │   │   ├── [ 46] popper.js.flow
-│   │   │   ├── [139K] popper.js.map
+│   │   │   ├── [139K] popper.js.map          [aus dem Pojekt entfernt]
 │   │   │   ├── [ 39K] popper-lite.js
 │   │   │   ├── [ 51] popper-lite.js.flow
-│   │   │   └── [ 94K] popper-lite.js.map
+│   │   │   └── [ 94K] popper-lite.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [4.0K] esm
 │   │   │   ├── [7.2K] createPopper.js
 │   │   │   ├── [4.0K] dom-utils
@@ -276,7 +277,7 @@
 │   │   │   ├── [1.7K] computeOffsets.js
 │   │   │   ├── [ 302] debounce.js
 │   │   │   ├── [3.4K] detectOverflow.js
-│   │   │   ├── [ 159] expandToHashMap.js
+│   │   │   ├── [ 159] expandToHashmap          [aus dem Pojekt entfernt].js
 │   │   │   ├── [ 79] getAltAxis.js
 │   │   │   ├── [ 89] getAltLen.js
 │   │   │   ├── [ 125] getBasePlacement.js
@@ -295,25 +296,25 @@
 │   │   │   └── [ 262] within.js
 │   │   └── [4.0K] umd
 │   │   ├── [2.4K] enums.js
-│   │   ├── [4.1K] enums.js.map
+│   │   ├── [4.1K] enums.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [1.1K] enums.min.js
 │   │   ├── [ 45] enums.min.js.flow
-│   │   ├── [3.6K] enums.min.js.map
+│   │   ├── [3.6K] enums.min.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [ 32K] popper-base.js
-│   │   ├── [ 73K] popper-base.js.map
+│   │   ├── [ 73K] popper-base.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [9.6K] popper-base.min.js
 │   │   ├── [ 51] popper-base.min.js.flow
-│   │   ├── [ 57K] popper-base.min.js.map
+│   │   ├── [ 57K] popper-base.min.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [ 62K] popper.js
-│   │   ├── [139K] popper.js.map
+│   │   ├── [139K] popper.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [ 42K] popper-lite.js
-│   │   ├── [ 94K] popper-lite.js.map
+│   │   ├── [ 94K] popper-lite.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [ 13K] popper-lite.min.js
 │   │   ├── [ 51] popper-lite.min.js.flow
-│   │   ├── [ 73K] popper-lite.min.js.map
+│   │   ├── [ 73K] popper-lite.min.js.map          [aus dem Pojekt entfernt]
 │   │   ├── [ 20K] popper.min.js
 │   │   ├── [ 46] popper.min.js.flow
-│   │   └── [107K] popper.min.js.map
+│   │   └── [107K] popper.min.js.map          [aus dem Pojekt entfernt]
 │   ├── [ 23] index.d.ts
 │   ├── [4.0K] lib
 │   │   ├── [ 750] createPopper.d.ts
@@ -451,9 +452,9 @@
 │   │   ├── [ 480] detectOverflow.d.ts
 │   │   ├── [3.4K] detectOverflow.js
 │   │   ├── [3.2K] detectOverflow.js.flow
-│   │   ├── [ 149] expandToHashMap.d.ts
-│   │   ├── [ 159] expandToHashMap.js
-│   │   ├── [ 246] expandToHashMap.js.flow
+│   │   ├── [ 149] expandToHashmap          [aus dem Pojekt entfernt].d.ts
+│   │   ├── [ 159] expandToHashmap          [aus dem Pojekt entfernt].js
+│   │   ├── [ 246] expandToHashmap          [aus dem Pojekt entfernt].js.flow
 │   │   ├── [ 64] getAltAxis.d.ts
 │   │   ├── [ 79] getAltAxis.js
 │   │   ├── [ 112] getAltAxis.js.flow
@@ -511,3 +512,4 @@
 └── [4.9K] project_style.scss
 
 33 directories, 475 files
+```
