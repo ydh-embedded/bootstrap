@@ -1,0 +1,237 @@
+body {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #333333;
+    height: 100vh;
+    display: content;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Smooth shadow */
+    border-radius: 8px;
+    /* Optional: adds rounded corners */
+}
+
+section.bg-light {
+    background-color: #f8f9fa;
+}
+
+section.bg-white {
+    background-color: #ffffff;
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    /* Distributes space between items */
+    align-items: center;
+    padding: 3rem 4rem;
+    /* Adds padding for better spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    /* Smooth shadow for navbar */
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    /* Increases font size for better visibility */
+    text-transform: uppercase;
+    /* Makes brand text uppercase */
+    letter-spacing: 1px;
+    /* Adds spacing between letters */
+    transition: color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.navbar .navbar-brand:hover {
+    color: #4d545a;
+    /* Lightened color */
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    /* Removes default border */
+    background-color: transparent;
+    /* Makes the background transparent */
+    color: white;
+    /* Sets icon color */
+    padding: 0.5rem;
+    /* Adds padding for better touch target */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.navbar .navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Adds a hover effect */
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    /* Ensures nav items are in a row */
+    gap: 1.5rem;
+    /* Adds space between nav items */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    /* Makes the link text slightly bolder */
+    text-decoration: none;
+    /* Removes underline */
+    transition: color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #00ff00;
+    /* Lightened color */
+    text-decoration: underline;
+    /* Adds underline on hover for emphasis */
+}
+
+.navbar .navbar-toggler .bar {
+    height: 3px;
+    width: 100%;
+    background-color: grey;
+    /* Default color when closed */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .navbar-toggler:hover .bar {
+    background-color: white;
+    /* Change color on hover */
+}
+
+.navbar .navbar-toggler:hover {
+    transform: scale(1.1);
+    /* Slightly scale on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 650px) {
+    body {
+        margin: 1rem;
+        /* Reduce margin on smaller screens */
+        padding: 0.5rem;
+        /* Reduce padding on smaller screens */
+    }
+
+    .navbar {
+        padding: 1rem;
+        /* Reduce padding for the navbar */
+        flex-direction: column;
+        /* Stack elements vertically */
+    }
+
+    .navbar .navbar-nav {
+        display: none;
+        /* Hide nav links by default */
+        flex-direction: column;
+        /* Stack links vertically */
+        width: 100%;
+        /* Full width */
+        margin-top: 1rem;
+        /* Space between toggler and nav links */
+    }
+
+    .navbar .navbar-nav.active {
+        display: flex;
+        /* Show nav links when active */
+    }
+
+    .navbar .navbar-toggler {
+        display: flex;
+        /* Show the toggler in mobile view */
+    }
+
+    .navbar .navbar-toggler .bar {
+        background-color: grey;
+        /* Default color when closed */
+    }
+}
+
+
+
+
+
+
+//SECTION Counter the Headline when you get this information from db
+:root{
+    counter-reset: headings;
+}
+
+h2{
+    counter-increment: headings;
+}
+h2::before{
+    content: counter(headings);
+    background-color: cyan;
+    borderradius:var(--background)3px;
+    padding: .15em 0;
+    width: 40px;
+    text-align: center;
+}
+
+//SECTION BOX Shadow
+a.element.style:hover{
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.3)
+    inset,-10px -10px 10px white
+}
+
+
+//SECTION response by container
+.container{
+    width: clamp(400px , 50vw, 800px ) ;
+}
+
+//SECTION background effekt glass bei picture at background
+.glass{
+    backdrop-filter: blur(10px);
+}
+
+//SECTION Darkmode selector im body
+body:has(option[value="dark"]:checked){
+    --background: black;
+    --text-color: white;
+}
+
+h1 {
+    background: linear-gradient(to right, red , blue);
+    background-clip: text;
+    color: transparent;
+}
+
+// SECTION slider with cards
+// Der wrapper muss genauso groß seine wie die width der cards
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    overflow-x:scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.wrapper .card{
+    scroll-snap-align: center;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    flex-shrink: 0;
+    width: 300px;
+    background: white;
+    border-radius: 14px;
+    text-align: center;
+}
